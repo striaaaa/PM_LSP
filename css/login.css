@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+.container-1 {
+  height: 100vh;
+  background-size: cover;
+  background-image: url(/assets/ilustrasi-perpustakaan-istock_ratio-16x9\ 1.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-form {
+  width: 50%;
+  height: 50vh;
+  margin: auto;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-form {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-weight: 600;
+}
+
+.input-con {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-con input {
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 10px;
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+.input-con span {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.input-con a {
+  padding-top: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.input-con a:hover {
+  text-decoration: underline;
+}
+
+button {
+  margin-top: 20px;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: #212a3e;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+button:hover {
+  cursor: pointer;
+  color: #66ccff;
+}

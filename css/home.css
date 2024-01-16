@@ -1,0 +1,112 @@
+/* Container 1 */
+
+.container-1 {
+  background-image: url("/assets/bg-home.png");
+  height: 90vh;
+}
+
+.container-cards {
+  padding-top: 8%;
+}
+
+.card {
+  width: 50%;
+  height: 50vh;
+  background-color: red;
+  margin: auto;
+  border-radius: 20px;
+  background: rgba(33, 42, 62, 0.64);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border: 1px solid rgba(33, 42, 62, 0.3);
+  padding-left: 20px;
+  padding-top: 20px;
+  color: white;
+}
+
+.title-card {
+  font-size: 36px;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  color: white;
+}
+
+.content-card {
+  max-width: 90%;
+  margin-top: 50px;
+}
+
+.content-card p {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+/* COntainer-2 */
+
+.container-2 {
+  height: auto;
+  padding-top: 3%;
+}
+
+.title-con-2 {
+  text-align: center;
+}
+
+.container-books {
+  width: 95%;
+  margin: auto;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}
+
+.books {
+  width: 18%;
+  margin-right: 20px;
+  color: black;
+}
+.books-2 {
+  width: 18%;
+  color: black;
+}
+
+.img-books {
+  width: 250px;
+  height: 400px;
+}
+
+.img-books img {
+  width: 100%;
+  height: 100%;
+}
+
+.title-books {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.title-books p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.desk-books {
+  text-align: left;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* __________FOOTER_________ */
+
+.footer {
+  margin-top: 50px;
+  height: 8vh;
+  background-color: #212a3e;
+}
