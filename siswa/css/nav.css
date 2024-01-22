@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #212a3e;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo {
+  width: 60px;
+  height: 60px;
+  display: flex;
+}
+
+.nav-logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.name-logo {
+  margin-left: 20px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-links a:hover {
+  color: #66ccff;
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+
+.nav-links span {
+  margin-right: 20px;
+}
+
+.dropdown {
+  display: none;
+}
+.container-links:hover .dropdown {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: #212a3e;
+  padding: 20px;
+}
+
+.nav-user {
+  display: flex;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-user a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-user a:hover {
+  color: #66ccff;
+}
+
+.nav-user p {
+  margin-right: 20px;
+}

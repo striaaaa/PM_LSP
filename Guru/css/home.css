@@ -1,7 +1,7 @@
 /* Container 1 */
 
 .container-1 {
-  background-image: url("/assets/bg-home.png");
+  /* background-image: url("/assets/bg-home.png"); */
   height: 90vh;
 }
 
@@ -12,24 +12,24 @@
 .card {
   width: 50%;
   height: 50vh;
-  background-color: red;
   margin: auto;
   border-radius: 20px;
-  background: rgba(33, 42, 62, 0.64);
+  border: 1px solid black;
+  /* background: rgba(33, 42, 62, 0.64);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(0px);
   -webkit-backdrop-filter: blur(0px);
-  border: 1px solid rgba(33, 42, 62, 0.3);
+  border: 1px solid rgba(33, 42, 62, 0.3); */
   padding-left: 20px;
   padding-top: 20px;
-  color: white;
+  /* background-color: #637db4; */
 }
 
 .title-card {
   font-size: 36px;
   font-family: "Poppins", sans-serif;
   font-size: 40px;
-  color: white;
+  color: rgb(117, 117, 117);
 }
 
 .content-card {
@@ -40,12 +40,12 @@
 .content-card p {
   font-family: "Inter", sans-serif;
   font-size: 20px;
-  color: white;
+  color: #565656;
 }
 
 /* COntainer-2 */
 
-.container-2 {
+/* .container-2 {
   height: auto;
   padding-top: 3%;
 }
@@ -57,7 +57,6 @@
 .container-books {
   width: 95%;
   margin: auto;
-  /* background-color: red; */
   display: flex;
   justify-content: center;
   padding-top: 25px;
@@ -101,12 +100,12 @@
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 400;
-}
+} */
 
 /* __________FOOTER_________ */
 
-.footer {
+/* .footer {
   margin-top: 50px;
   height: 8vh;
   background-color: #212a3e;
-}
+} */

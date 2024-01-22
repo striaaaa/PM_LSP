@@ -62,9 +62,15 @@
   font-weight: 400;
 }
 
-.desk-book {
-  text-align: left;
-  font-family: "Inter", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
+button {
+  margin-top: 2%;
+  padding: 10px;
+  color: white;
+  background-color: #26334e;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #101521;
 }

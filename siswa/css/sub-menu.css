@@ -1,0 +1,42 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.sub-menu {
+  display: flex;
+  justify-content: center;
+}
+
+.container-sub-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.container-sub-btn a {
+  margin-right: 2%;
+  margin-left: 2%;
+  text-decoration: none;
+}
+
+.btn {
+  width: 150px;
+  height: 40px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #212a3e;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #0d111a;
+  text-decoration: underline;
+}
